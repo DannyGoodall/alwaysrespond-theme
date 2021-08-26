@@ -18,3 +18,153 @@
     margin-bottom: 2px;
 }
 
+/* 
+    This allows the category selection in the Wizard to span the width of the Wizard
+    without it the width of the selector is limited to 300px. Don't know why
+*/
+.custom-wizard .select-kit.multi-select.category-selector.has-selection {
+    width: unset !important;
+}
+
+/*
+#post_1 .cooked, #post_1 .points-card-summary {
+    background: #2cb6d70a;   
+}
+
+#post_1 .points-card-summary {
+    background: #2cb6d700;
+}
+*/
+
+.points-card-extract:not(:empty) {
+/*    background: #92278f14; */
+    /*background: #2841620f;*/
+    background: #bd155007;
+    border-color: #bd15507f;
+    border-style: dashed;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 8px;
+}
+
+.points-card-extract  img.d-lazyload {
+    // width: unset !important;
+    // height: unset !important;
+    width: 25% !important; 
+    height: 25% !important; 
+}
+
+.points-card-summary-points-cards {
+    /* background: #2cb6d705;   */
+    /* background: #bd155025; */
+}
+
+
+.points-card-summary-abcc {
+    background: #2cb6d705;
+}
+
+.points-card-summary-little-room {
+    background: #2cb6d705;   
+}
+      
+.points-card-summary-captured-moment { 
+    background: #2cb6d705;
+}
+
+.points-card-summary-tailored-intervention {
+    background: #2cb6d705;
+}
+
+.points-card-summary-work-catchup {
+    background: #2cb6d705;
+}
+
+
+
+.individual-points-card-report table a img, .points-card-extract table a img {
+    text-align:left !important; 
+    max-width: 100% !important; 
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+.points-big-font {
+    font-size: var(--font-up-8);
+    line-height: var(--line-height-medium);
+    overflow-wrap: break-word;
+}
+
+.points-tracker-entry {
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.points-tracker-date {
+    font-size: var(--font-down-1);
+    font-style: italic;
+    text-align: left;
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.points-tracker-description {
+    font-size: var(--font-down-1);
+    font-style: italic;
+    text-align: left;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.points-tracker-negative-value {
+    font-size: var(--font-up-6);
+    color: var(--quaternary);
+    text-align: right;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.points-tracker-positive-value {
+    font-size: var(--font-up-6);
+    color: var(--tertiary);
+    text-align: right;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.points-tracker-totals-container {
+        width: 100%;    
+    display: flex;
+    justify-content: space-between;
+}
+.points-tracker-totals-description {
+    
+}
+
+.points-tracker-totals-balance-description {
+    font-size: var(--font-up-6);
+}
+
+.points-tracker-totals-positive-value {
+    @extend .points-tracker-positive-value;
+    font-size: var(--font-up-3);
+}
+.points-tracker-totals-negative-value {
+    @extend .points-tracker-negative-value;
+    font-size: var(--font-up-3);
+}
+.points-tracker-totals-total-value {
+    @extend .points-tracker-positive-value;    
+    color: var(--primary);
+}
