@@ -47,12 +47,24 @@
     margin-top: 8px;
 }
 
-.points-card-extract  div.lightbox-wrapper a.lightbox img {
+// Select the div lightbox wrapper 
+.points-card-extract  div.lightbox-wrapper{
     // width: unset !important;
     // height: unset !important;
     width: 25% !important; 
     height: 25% !important; 
+    vertical-align: top;
 }
+
+// Select non-lightbox images that are immediate children on the table cell but not an emoji
+.points-card-extract td > img:not(img.emoji) {
+    // width: unset !important;
+    // height: unset !important;
+    width: 25% !important; 
+    height: 25% !important; 
+    vertical-align: top;
+}
+
 
 .points-card-summary-points-cards {
     /* background: #2cb6d705;   */
