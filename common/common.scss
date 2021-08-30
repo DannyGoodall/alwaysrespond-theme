@@ -32,7 +32,23 @@
 */
 .custom-wizard .select-kit.multi-select.category-selector.has-selection {
     width: 100%;
-    
+}
+
+/* 
+    These changes allow the category selection to display all selected items without clipping
+*/
+.custom-wizard .select-kit.multi-select.category-selector {
+    width: 100%;
+}
+
+.custom-wizard .select-kit.multi-select.category-selector.has-selection  div.select-kit-header-wrapper {
+    display: block ;
+    width: 100%;
+    height: 4em;
+}
+
+.custom-wizard .select-kit.multi-select.category-selector.has-selection  div.select-kit-header-wrapper span.formated-selection {
+    white-space: normal;
 }
 
 .custom-wizard .select-kit.multi-select.category-selector.has-selection  div.select-kit-header-wrapper {
