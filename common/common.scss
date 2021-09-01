@@ -2,7 +2,7 @@ body {
     font-family: 'arial', sans-serif;
 }
 
-button.wizard-btn .done {
+.custom-wizard .wizard-column .wizard-step-footer button.wizard-btn.done {
     background-color: #ED207B;
     color: #fefefe;
 }
