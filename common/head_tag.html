@@ -1,17 +1,16 @@
 <script type="text/discourse-plugin" version="0.4">
 
-  function setMaximumWidths(){
-      $('div.md-table table tbody tr td:has(div.points-card-detail-body-detail-col)')
-          .css("width","100%");
-      console.log("setMaximumWidths called.");
-  }
-
-    $( document ).ready( 
-        window.setInterval(function(){
-            setMaximumWidths();
-        }, 
-        5000
-      );
+    function setMaximumWidths(){
+        $('div.md-table table tbody tr td:has(div.points-card-detail-body-detail-col)')
+            .css("width","100%");
+        console.log("setMaximumWidths called.");
     }
+  
+    $( document ).ready( 
+      window.setInterval(function(){
+          setMaximumWidths();
+      }, 
+      5000
+    )
   );
 </script>
