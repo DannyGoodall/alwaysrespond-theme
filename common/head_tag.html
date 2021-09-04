@@ -5,12 +5,12 @@
             .css("width","100%");
     }
   
-    $( document ).ready( 
+    $( document ).ready( function() {
       setMaximumWidths();
       window.setInterval(function(){
           setMaximumWidths();
       }, 
-      5000
-    )
+      5000)
+    }
   );
 </script>
