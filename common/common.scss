@@ -71,7 +71,7 @@ body {
     white-space: normal;
 }
 
-div.md-table table div.points-card-detail-body-detail-col {
+div.md-table table tbody tr td:has(div.points-card-detail-body-detail-col) {
     width: 100%;
 }
 
