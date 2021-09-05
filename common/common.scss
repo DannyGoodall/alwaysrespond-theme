@@ -2,6 +2,11 @@ body {
     font-family: 'arial', sans-serif;
 }
 
+// Hide the latest and new post counts in the category view on the main page
+a.badge.new-posts.badge-notification {
+    display: none;
+}
+
 .custom-wizard .wizard-column .wizard-step-footer button.wizard-btn.done {
     background-color: #ED207B;
     color: #fefefe;
