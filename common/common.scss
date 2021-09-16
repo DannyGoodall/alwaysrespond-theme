@@ -102,7 +102,7 @@ a.badge.new-posts.badge-notification {
 }
 
 // Select the div lightbox wrapper 
-.points-card-extract  div.lightbox-wrapper{
+.points-card-extract  div.lightbox-wrapper, .individual-points-card-report div.lightbox-wrapper {
     // width: unset !important;
     // height: unset !important;
     width: 25% !important; 
@@ -111,7 +111,7 @@ a.badge.new-posts.badge-notification {
 }
 
 // Select non-lightbox images that are immediate children on the table cell but not an emoji
-.points-card-extract td > img:not(img.emoji) {
+.points-card-extract td > img:not(img.emoji), .individual-points-card-report td > img:not(img.emoji) {
     // width: unset !important;
     // height: unset !important;
     width: 25% !important; 
