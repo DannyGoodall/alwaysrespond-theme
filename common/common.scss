@@ -90,6 +90,20 @@ a.badge.new-posts.badge-notification {
 }
 */
 
+.topic-excerpt {
+    display: none;
+}
+
+div.small-action.onscreen-post {
+    padding: 2px;
+    border-radius: 5px;
+    border-style: dashed;
+    margin-top: 8px;
+    border-top: dashed;
+    background: #2cbcd71f;
+    border-color: #2cbcd73f;
+}
+
 .cooked div[data-masonry-gallery], 
     .d-editor-preview div[data-masonry-gallery], 
     .points-card-extract:not(:empty) {
