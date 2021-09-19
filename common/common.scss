@@ -90,7 +90,7 @@ a.badge.new-posts.badge-notification {
 }
 */
 
-.topic-excerpt {
+.topic-list a.topic-excerpt {
     display: none;
 }
 
@@ -99,9 +99,10 @@ div.small-action.onscreen-post {
     border-radius: 5px;
     border-style: dashed;
     margin-top: 8px;
-    border-top: dashed;
+    border-top: dashed !important;
     background: #2cbcd71f;
     border-color: #2cbcd73f;
+    border-top-color: #2cbcd73f !important;
 }
 
 .cooked div[data-masonry-gallery], 
