@@ -2,6 +2,11 @@ body {
     font-family: 'arial', sans-serif;
 }
 
+// Hide the padlock
+svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
+    display: none;
+}
+
 // Hide the latest and new post counts in the category view on the main page
 a.badge.new-posts.badge-notification {
     display: none;
