@@ -7,6 +7,11 @@ svg.fa.d-icon.d-icon-lock.svg-icon.svg-string {
     display: none;
 }
 
+// Override the category-icon color
+span.category-icon {
+    color: var(--primary-low-mid) !important;
+}
+
 // Hide the latest and new post counts in the category view on the main page
 a.badge.new-posts.badge-notification {
     display: none;
