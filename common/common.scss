@@ -12,6 +12,11 @@ span.category-icon {
     color: var(--primary-low-mid) !important;
 }
 
+// Turn off subcategory list 
+tr[data-category-id="162"] div.subcategories {
+    display: none;
+}
+
 // Hide the latest and new post counts in the category view on the main page
 a.badge.new-posts.badge-notification {
     display: none;
