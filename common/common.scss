@@ -12,8 +12,20 @@ span.category-icon {
     color: var(--primary-low-mid) !important;
 }
 
-// Turn off subcategory list 
-tr[data-category-id="162"] div.subcategories {
+// Turn off subcategory list except for legit subcategories
+.category-list .subcategories {
+    display: none;
+}
+
+.category-list .subcategories-list {
+    display: none;
+}
+
+.category-list footer.category-topics-count {
+    display: none;
+}
+
+.category-list tr.category-topic-link {
     display: none;
 }
 
